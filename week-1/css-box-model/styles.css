@@ -1,0 +1,31 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background: #eee;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 10px solid black;
+  margin: 10px;
+}
+
+.second-box {
+  box-sizing: border-box;
+  width: 200px;
+  height: 200px;
+  background: #ccc;
+  padding: 30px;
+  border: 20px dashed red;
+  margin: 40px;
+}
+
+.third-box {
+  box-sizing: padding-box;
+  width: 120px;
+  height: 60px;
+  background: #bbb;
+  padding: 10px;
+  border: 10px double green;
+  margin: 15px;
+}
