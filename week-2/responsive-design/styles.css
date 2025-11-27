@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lavender;
+}
+
+header {
+  margin-inline: auto;
+  max-width: fit-content;
+}
+
+.hero {
+  width: 100vw;
+  padding: 1rem;
+}
+
+.hero p {
+  padding-bottom: 1rem;
+}
+
+.container-intro {
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: #eee;
+  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, mixmax(200px, 1fr));
+  gap: 1rem;
+}
+
+img {
+  width: 100%;
+  padding: 0.5rem;
+  object-fit: cover;
+  object-position: top center;
+}
+
+.box {
+  border: 2px solid goldenrod;
+  border-radius: 1rem;
+}
