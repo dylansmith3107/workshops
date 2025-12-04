@@ -1,0 +1,15 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.fox-image {
+  width: 400px;
+  height: auto;
+  padding: 10px;
+}
+
+header h1 {
+  padding-bottom: 3px;
+}

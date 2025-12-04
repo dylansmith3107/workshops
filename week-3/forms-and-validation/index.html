@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms and Validation</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Forms and Validation</h1>
+    </header>
+    <main>
+      <form id="user-form">
+        <fieldset>
+          <legend>Personal info</legend>
+          <label for="username">Username: </label>
+          <input type="text" name="username" required />
+          <label for="email">Email: </label>
+          <input type="email" name="email" required />
+          <label for="password">Password: </label>
+          <input type="password" name="password" required />
+        </fieldset>
+        <fieldset>
+          <legend>Professional info</legend>
+          <label for="jobRole">Job Role: </label>
+          <input type="text" name="jobRole" placeholder="optional" />
+          <label for="contractType">Are you salaried or a contractor></label>
+          <select name="contractType">
+            <option value="" disabled selected>Select a type:</option>
+            <option value="1">Salaried</option>
+            <option value="2">Contractor</option>
+          </select>
+        </fieldset>
+        <button type="submit">Submit</button>
+      </form>
+
+      <form id="hobby-form">
+        <fieldset>
+          <legend>About you</legend>
+          <label for="name">Name: </label>
+          <input type="text" name="name" required />
+          <label for="city">City: </label>
+          <input type="text" name="city" required />
+          <label for="hobbies">What are your hobbies?</label>
+          <input type="text" name="hobby-1" required />
+          <input type="text" name="hobby-2" required />
+          <input type="text" name="hobby-3" required />
+        </fieldset>
+        <button type="submit">Submit</button>
+      </form>
+
+      <div id="hobby-form-div"></div>
+    </main>
+    <footer></footer>
+  </body>
+</html>
